@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="source-sha256" content="e1fb3d6db7800adca0b212551fc4eabcf138d924ecbe7c5a4f2794a3310e1a9a"><meta name="description" content="低内耗社交指南 · 低内耗社交指南 V1.0"><title>低内耗社交指南 V1.0 · 低内耗社交指南</title><style>
+:root{--paper:#f5f5f8;--surface:#fff;--ink:#17161d;--purple:#654bff;--purple-dark:#4b34df;--purple-soft:#f0edff;--muted:#6f6d7a;--line:#e3e1ea;--teal:#237b70}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.9;overflow-wrap:anywhere}
+header,main,footer{width:min(100%,880px);margin:auto;padding:0 28px}header{padding-top:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--line);font-size:14px}.brand{font-weight:760;letter-spacing:.04em}.top nav{display:flex;gap:6px 16px;justify-content:flex-end;flex-wrap:wrap}a{color:var(--purple-dark);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid #c7bfff;outline-offset:4px}.top a{text-decoration:none}.top nav a{color:var(--muted)}.top nav a:hover{color:var(--purple)}
+main{padding-top:44px;padding-bottom:42px}h1{font-size:42px;line-height:1.28;letter-spacing:0;margin:0 0 22px}h2{font-size:24px;line-height:1.5;margin:44px 0 14px;padding-top:10px;border-top:1px solid var(--line);scroll-margin-top:20px}h3{font-size:19px;line-height:1.6;margin:30px 0 10px;scroll-margin-top:20px}h4,h5,h6{font-size:17px;margin:22px 0 8px;scroll-margin-top:20px}p{margin:0 0 18px}ul,ol{margin:0 0 22px;padding-left:1.5em}li{padding-left:.15em;margin:6px 0}li p{margin:8px 0}strong{font-weight:720}img{display:block;width:auto;max-width:100%;height:auto;margin:22px auto;border-radius:6px}blockquote{margin:20px 0;padding:8px 0 8px 16px;border-left:3px solid var(--purple);color:#504d5c;background:linear-gradient(90deg,var(--purple-soft),transparent)}blockquote p:last-child{margin-bottom:0}hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+.table-wrap{max-width:100%;overflow-x:auto;margin:18px 0 26px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:0 12px}table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.75}th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line);min-width:115px}th{font-weight:700;color:var(--purple-dark);background:var(--purple-soft)}td:first-child,th:first-child{padding-left:8px}code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88em;background:#eeedf2;padding:2px 5px;border-radius:3px}pre{overflow-x:auto;padding:16px;background:#eeedf2;border-radius:6px;line-height:1.6}pre code{background:none;padding:0;white-space:pre;overflow-wrap:normal}.toc{margin:26px 0 34px;padding:18px 20px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:14px}.toc summary{color:var(--purple-dark);font-weight:720;cursor:pointer}.toc ul{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;padding:0;margin:12px 0 0}.toc li{margin:0;padding:0}.toc a{text-decoration:none}
+footer{border-top:1px solid var(--line);padding-top:20px;padding-bottom:30px;font-size:13px;color:var(--muted)}footer p{margin-bottom:8px}.footer-links{display:flex;flex-wrap:wrap;gap:8px 18px}
+@media(max-width:600px){header,main,footer{padding-left:18px;padding-right:18px}.top{display:block}.top nav{justify-content:flex-start;margin-top:12px;font-size:14px;gap:6px 14px}main{padding-top:30px}h1{font-size:32px}h2{font-size:22px}h3{font-size:18px}th,td{padding:9px 10px}table{font-size:14px}.toc ul{display:block}.toc li{margin:8px 0}}
+@media print{body{background:white;color:#111;font-size:11pt}header,.toc,.footer-links{display:none}main,footer{width:auto;max-width:none;padding:0}h1{font-size:24pt}h2{font-size:17pt;break-after:avoid}h3{font-size:14pt;break-after:avoid}a{color:inherit}.table-wrap{overflow:visible}pre{white-space:pre-wrap}img{max-height:80vh}footer{margin-top:25px}}
+</style></head><body><header><div class="top"><a class="brand" href="index.html">低内耗社交指南</a><nav aria-label="站点导航"><a href="index.html">阅读与检索</a><a href="阅读全文.html">连续阅读</a><a href="docs/practice.html">练习</a><a href="about.html">项目说明</a></nav></div></header><main><h1 id="低内耗社交指南-v10">低内耗社交指南 V1.0</h1><details class="toc"><summary>本页目录</summary><ul><li><a href="#项目简介">项目简介</a></li><li><a href="#这份指南想回答的问题">这份指南想回答的问题</a></li><li><a href="#怎么读">怎么读</a></li><li><a href="#如何理解依据">如何理解依据</a></li><li><a href="#给-ai-使用">给 AI 使用</a></li><li><a href="#编辑与生成">编辑与生成</a></li><li><a href="#维护说明">维护说明</a></li></ul></details>
+<h2 id="项目简介">项目简介</h2>
+<p>进入社会之后，我们常常会因为人情世故而苦恼：不知道事情该怎么做，话该怎么说，也不清楚一个选择背后可能要付出什么代价。</p>
+<p><strong>这是一份面向大学生和初入职场者的社交场景决策指南。它不只告诉你一句话怎么说，而是先帮助你看清目标、关系、已有约定与现实风险，再选择动作，并根据对方的实际回应继续调整。</strong></p>
+<p>从合作、求助、拒绝，到金钱、礼节和冲突，每条都写清判断关键、行动前准备、第一步、表达参考、不同情境、可能收益、关系代价、例外与调整信号。希望帮助你把一件模糊的烦恼，整理成一次可以执行、可以观察反馈的选择。你可以选择相近场景试用，但不能跳过自己的关系、权力差异与现实条件。</p>
+<p>10 章 67 条 · 全部为经验建议。</p>
+<blockquote><p><strong>免责声明：仅供参考。</strong> 本项目内容仅供学习与交流参考，属于经验建议，不保证适用于所有人或取得特定效果。具体问题请根据事实情况分析，结合自身处境、关系与适用规则独立判断，不宜直接照搬示例。</p></blockquote>
+<h3 id="阅读与检索--连续阅读--让-ai-按指南回答"><a href="index.html">阅读与检索</a> · <a href="阅读全文.html">连续阅读</a> · <a href="skills/low-friction-social-guide/SKILL.md">让 AI 按指南回答</a></h3>
+<div class="table-wrap"><table><thead><tr><th scope="col">入口</th><th scope="col">内容</th></tr></thead><tbody>
+<tr>
+<td>下载</td>
+<td><a href="downloads/低内耗社交指南.pdf">PDF</a> · <a href="downloads/html.html">HTML 检索页</a> · <a href="阅读全文.html">Markdown</a></td>
+</tr>
+<tr>
+<td>阅读</td>
+<td><a href="阅读全文.html">完整文字版</a> · <a href="docs/usage.html">使用指南</a></td>
+</tr>
+<tr>
+<td>练习</td>
+<td><a href="docs/practice.html">交流复盘与场景练习</a></td>
+</tr>
+<tr>
+<td>查阅</td>
+<td><a href="docs/verification.html">依据与核实记录</a> · <a href="docs/editorial-guide.html">编写与纠错规范</a> · <a href="docs/research-notes.html">论文与文章资料</a> · <a href="docs/interview-notes.html">访谈与博客笔记</a> · <a href="阅读全文.html#sources">来源索引</a></td>
+</tr>
+</tbody></table></div>
+<p>点击上方“阅读与检索”或“连续阅读”即可打开对应文件。需要离线使用时，请保留完整项目文件夹，再用浏览器打开 <code>index.html</code> 或 <code>阅读全文.html</code>。</p>
+<p>“HTML 检索页”下载的是项目文件夹里的 <code>index.html</code>，保存后可直接用浏览器打开，离线搜索和查看全部条目；需要一并使用其他阅读页与下载资料时，请保留完整项目文件夹。</p>
+<hr>
+<h2 id="这份指南想回答的问题">这份指南想回答的问题</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">问题</th><th scope="col">去哪看</th></tr></thead><tbody>
+<tr>
+<td>同学反复求助、小组分工不清、室友擅用物品，怎么开口？</td>
+<td><a href="阅读全文.html#chapter-1">1. 校园合作</a></td>
+</tr>
+<tr>
+<td>怎么求人帮忙、跟进消息、表达感谢，答应了做不到怎么办？</td>
+<td><a href="阅读全文.html#chapter-2">2. 求助与回报</a></td>
+</tr>
+<tr>
+<td>同事临时加活、任务撞期、被批评或自己犯错，怎么处理？</td>
+<td><a href="阅读全文.html#chapter-3">3. 实习与职场</a></td>
+</tr>
+<tr>
+<td>朋友借钱、迟还、垫款、随礼超预算，怎么决定？</td>
+<td><a href="阅读全文.html#chapter-4">4. 朋友与金钱</a></td>
+</tr>
+<tr>
+<td>饭局敬酒怎么说、不想喝酒、发合照、被问隐私或看到别人被冒犯，怎么回应？</td>
+<td><a href="阅读全文.html#chapter-5">5. 饭局、隐私与冲突</a></td>
+</tr>
+<tr>
+<td>怎么认识人、保持联系、分担责任、倾听和调整关系距离？</td>
+<td><a href="阅读全文.html#chapter-6">6. 长期关系与边界</a></td>
+</tr>
+<tr>
+<td>邀请、介绍、做客、聊天、夸赞、聚餐与接待，怎么做更清楚？</td>
+<td><a href="阅读全文.html#chapter-7">7. 社交礼节与场合</a></td>
+</tr>
+<tr>
+<td>怎么提意见、开会、确认要求、核实消息和暂停冲突？</td>
+<td><a href="阅读全文.html#chapter-8">8. 协作与表达</a></td>
+</tr>
+<tr>
+<td>家人干预选择、催问隐私、共同花钱、陪伴和关系结束怎么谈？</td>
+<td><a href="阅读全文.html#chapter-9">9. 家庭与亲密关系</a></td>
+</tr>
+<tr>
+<td>内推、面试、评估与协商 offer、入职、交接和离开后联系怎么处理？</td>
+<td><a href="阅读全文.html#chapter-10">10. 求职、入职与离开</a></td>
+</tr>
+</tbody></table></div>
+<h2 id="怎么读">怎么读</h2>
+<ul>
+<li>打开 <a href="index.html">阅读与检索页</a>，按关键词、场景和主题查找，也可以输入 <code>5.7</code> 等条号，或“怎么送礼”“借钱不还”等常见说法。搜索条件会保留在网址里，刷新或分享链接可以恢复。页面支持离线使用，不需要登录。</li>
+<li>使用 HTML 页面时，请保留完整项目文件夹，再用浏览器打开 <code>index.html</code> 或 <code>阅读全文.html</code>。</li>
+<li>打开 <a href="阅读全文.html">连续阅读版</a>，从头阅读全部章节，并可用浏览器打印或保存为 PDF。</li>
+<li>下载 <a href="阅读全文.html">完整文字版</a>，离线阅读或继续编辑。</li>
+<li>不知道从哪里开始，先看 <a href="docs/usage.html">使用指南</a>。</li>
+<li>喜欢纯文字，可以按下面的问题读 <code>book/</code> 正文。</li>
+<li>每条的“可以怎么说”都是本项目拟写的示例，不是平台原话，也不保证对方接受。</li>
+<li>先用页面的“30 秒决策检查”整理目标、权力差异、已有约定、现实后果与替代方案，再查看相近条目。</li>
+<li>展开“准备、不同情境、回应后怎么办与调整信号”，区分普通朋友、亲近关系、职责内请求等条件，别只照搬一句话。</li>
+<li>本版没有经过系统访谈、行为测试或逐条研究验证。平台调研提供选题线索，不证明方法有效。涉及学校、单位和法律的具体要求，需要另查对应规则。</li>
+</ul>
+<h2 id="如何理解依据">如何理解依据</h2>
+<p>不把经验、制度和研究放在一把尺子上打分，也不计算“情商分”或社交成功率。</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">类型</th><th scope="col">要求</th><th scope="col">本版情况</th></tr></thead><tbody>
+<tr>
+<td>研究背景</td>
+<td>原始研究来源、研究对象、主要结论与局限</td>
+<td>已在部分条目注明背景与阅读范围；具体动作未逐条验证</td>
+</tr>
+<tr>
+<td>制度规定</td>
+<td>官方文本、适用地区或机构、截至日期</td>
+<td>暂无具体制度结论</td>
+</tr>
+<tr>
+<td>经验建议</td>
+<td>标明为可选办法，列出代价、例外与失效可能</td>
+<td>67 条</td>
+</tr>
+</tbody></table></div>
+<p>“可能换回什么”是编辑预期，不是已测得的效果。“花掉什么”包含时间、金钱、压力与关系代价。同一句话面对室友、老师、朋友或领导，效果可能不同。</p>
+<h2 id="给-ai-使用">给 AI 使用</h2>
+<p>配套 <a href="skills/low-friction-social-guide/SKILL.md">low-friction-social-guide</a> 已包含一份正文快照。使用它回答具体场景时，先补齐会改变决定的事实，再查条目，输出第一步、可调整表达和对方不同回应下的下一步；查不到就说明缺项，不凭空补成“标准答案”。</p>
+<p>例如：“用这份指南帮我处理：同学总让我改 PPT，我不想继续接。”本项目里的 Skill 尚未安装到你的全局技能目录。</p>
+<h2 id="编辑与生成">编辑与生成</h2>
+<p>正文在 <code>book/</code>，每条的标签用于页面筛选。修改正文后运行：</p>
+<pre><code>python3 -m pip install reportlab pypdf
+python3 tools/build_release.py</code></pre>
+<p>统一脚本会检查条目字段、连续编号和交叉引用，生成检索页、连续阅读页、练习与查阅页、完整 Markdown、PDF，并同步 Skill 正文快照。最后校验网页链接、PDF 条目书签和来源链接，避免发布旧的导出文件。版本与定位在 <code>project.json</code> 中维护。</p>
+<p>PDF 默认使用 macOS 的中文字体。其他系统可给统一命令加上 <code>--font /path/to/chinese.ttf --bold-font /path/to/chinese-bold.ttf</code>，指定常规及粗体中文 TrueType 字体。只检查已生成文件时运行 <code>python3 tools/build_release.py --check</code>。搜索实现放在 <code>tools/search.js</code>，正文与标签仍以 <code>book/</code> 为准。</p>
+<p>修改检索逻辑后，生成页面并运行 <code>node tools/test_search.cjs</code>，检查自然语言搜索、筛选与条目跳转的刷新状态；此检查需要 Node.js。</p>
+<ul>
+<li><a href="docs/editorial-guide.html">编写与纠错规范</a></li>
+<li><a href="docs/history/初版说明.html">第一版核实记录</a></li>
+<li><a href="docs/history/v1.0说明.html">v1.0 扩充与审查记录</a></li>
+<li><a href="docs/research-notes.html">论文与文章资料笔记</a>：16 项材料的发现、限制与取得状态；已在 12 条现有场景中采用合适思路。</li>
+<li><a href="docs/interview-notes.html">访谈与博客学习笔记</a>：来源取得方式、原创转译与未完成核对。</li>
+<li><a href="docs/sources.html">平台调研与来源限制</a></li>
+<li><a href="docs/chapter-materials.html">新一轮章节扩充资料</a>：9 项材料与采用范围；已新增 3 条、深化 10 条正文，采用 7 篇机构指南，两篇论文继续核对。</li>
+<li><a href="docs/platform-notes.html">短视频与网络文章素材</a>：15 项材料及读取范围；已深化 5 条正文并新增 3 节练习，未核对线索单独保留。</li>
+<li><a href="docs/抖音三条视频借鉴笔记.md">三条抖音视频的借鉴笔记与原创练习</a></li>
+<li><a href="docs/Morris账号整理/阅读笔记.html">Morris 账号公开内容学习笔记</a>：24 条主题笔记，标注原帖核对状态、原创动作与限制；不代表历史全量覆盖。</li>
+</ul>
+<h2 id="维护说明">维护说明</h2>
+<p>这是内容与阅读功能完整的第一版，仍需真实使用反馈和逐条审校；“完整版”指本次规划的十章已齐，不代表覆盖所有人际情境。问题、反例与改进建议可按<a href="docs/editorial-guide.html">编写与纠错规范</a>记录。本项目暂未指定开源许可证；涉及具体制度的新增内容需核对对应规则。</p></main><footer><p>根据自己的关系与条件选择做法。示例可以调整，经验建议未验证效果。</p><p>本指南参考 GitHub 用户 kkk-bot 的《人情世故指南》项目，并结合公开资料重新编写。项目结构另参考 HowToLiveBetter 的问题目录、统一条目、公开纠错与配套 Skill 思路。</p><p class="footer-links"><a href="index.html">阅读与检索</a><a href="阅读全文.html">连续阅读</a><a href="docs/practice.html">练习</a><a href="about.html">项目说明</a><a href="README.md">查看 Markdown 源文档</a></p></footer></body></html>

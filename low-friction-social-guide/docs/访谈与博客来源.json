@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "id": "R01",
+      "title": "百家讲坛：金正昆人际交往法则（下）",
+      "date": "2007-10-11",
+      "url": "https://tvguide.cctv.com/20070928/107867.shtml",
+      "status": "已读取央视节目简介，未观看视频"
+    },
+    {
+      "id": "R02",
+      "title": "百家讲坛：彭林说礼（一）什么是礼",
+      "date": "2011-10-01",
+      "url": "https://tv.cctv.com/2011/10/01/VIDE1372756448148550.shtml",
+      "status": "已读取央视节目简介，现代场景为编辑转译"
+    },
+    {
+      "id": "R04",
+      "title": "凤凰网有约鲁豫：节目组交流专题",
+      "date": "完整日期待核对",
+      "url": "https://phtv.ifeng.com/special/luyuyouyuedaofangfenghuangwang/",
+      "status": "已读官方专题中的访谈文字片段，部分详情页失效，未观看完整节目"
+    },
+    {
+      "id": "R06",
+      "title": "Stanford：All Effective Communication Must Start With This",
+      "date": "2020-12-04",
+      "url": "https://www.gsb.stanford.edu/insights/quick-thinks-all-effective-communication-must-start",
+      "status": "已读检索返回的官方页面文字稿内容，直接打开失败，未听音频"
+    },
+    {
+      "id": "R08",
+      "title": "Stanford：What Makes a Supercommunicator",
+      "date": "2024-01-14",
+      "url": "https://www.gsb.stanford.edu/insights/good-great-what-makes-supercommunicator",
+      "status": "已读检索返回的官方页面文字稿内容，未播放视频或音频"
+    },
+    {
+      "id": "R09",
+      "title": "CCL：Use Situation-Behavior-Impact to Understand Intent",
+      "date": "2025-08-19（当前页面；旧检索结果日期不同）",
+      "url": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+      "status": "已读机构文章正文，未另核对效果研究"
+    },
+    {
+      "id": "R10",
+      "title": "Christine Carter：The Three Parts of an Effective Apology",
+      "date": "2015-11-12",
+      "url": "https://greatergood.berkeley.edu/article/item/the_three_parts_of_an_effective_apology",
+      "status": "已读作者文章正文，未另核对原始研究"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "id": "A06",
+      "title": "数字边界：确认信息公开与设备使用范围",
+      "date": "发布日期未标明；核实日期 2026-10-04",
+      "url": "https://www.loveisrespect.org/resources/digital-boundaries/",
+      "citation": "love is respect. Digital boundaries.",
+      "status": "已取得文章正文；美国年轻人关系教育指南，不是中国制度规定或效果研究",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A07",
+      "title": "旁观者帮助的五种选项",
+      "date": "发布日期未标明；核实日期 2026-10-04",
+      "url": "https://righttobe.org/guides/bystander-intervention-training/",
+      "citation": "Right To Be. The 5Ds of Bystander Intervention.",
+      "status": "已取得正文；未观看培训、未核对效果研究；美国执法背景不移植为统一处置规则",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A08",
+      "title": "线上旁观者支持与资料交付",
+      "date": "发布日期未标明；正文提及 2020 年训练合作；核实日期 2026-10-04",
+      "url": "https://righttobe.org/guides/bystander-intervention-online/",
+      "citation": "Right To Be. Bystander Intervention Online.",
+      "status": "已取得正文；未观看培训；公开介入可能引来攻击，不能保证安全或处理效果",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A09",
+      "title": "把模糊反馈追问成具体观察与下一步",
+      "date": "2026-07-01（页面日期）；核实日期 2026-10-04",
+      "url": "https://www.pon.harvard.edu/daily/conflict-resolution/learning-from-feedback-without-losing-your-mind/",
+      "citation": "Shonk, K. Learning from Feedback Without Losing Your Mind. Harvard PON.",
+      "status": "已取得正文；介绍 Stone 与 Heen 线上讨论，未观看原讨论，不是实验报告",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A10",
+      "title": "持续贬损的事实整理与支持渠道",
+      "date": "2025-12-16（最后更新）；核实日期 2026-10-04",
+      "url": "https://www.acas.org.uk/bullying-at-work/if-you-think-youre-being-bullied",
+      "citation": "Acas. If you think you’re being bullied.",
+      "status": "已取得正文；英国工作场所指南，只借鉴事实整理和支持选项，不移植法律或申诉程序",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A11",
+      "title": "offer 协商的准备、期限与书面确认",
+      "date": "发布日期未标明；核实日期 2026-10-04",
+      "url": "https://capd.mit.edu/channels/negotiate-job-offers/",
+      "citation": "MIT CAPD. Negotiate job offers.",
+      "status": "已取得指南正文；未观看链接视频，美国招聘经验不等于各地权利，不采用最坏只是被拒绝的保证",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A12",
+      "title": "核实可行备选方案并按同一口径比较",
+      "date": "2026-09-30（页面日期；改编自既有通讯）；核实日期 2026-10-04",
+      "url": "https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/",
+      "citation": "Subramanian, G. What is BATNA? How to Find Your Best Alternative to a Negotiated Agreement. Harvard PON.",
+      "status": "已取得正文；实践框架文章，不称为 2026 年新实验或效果保证",
+      "material_type": "机构实践文章"
+    }
+  ]
+}

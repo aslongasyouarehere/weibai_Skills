@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-04",
+  "sources": [
+    {
+      "id": "P01",
+      "title": "求助者可能低估直接请求的回应",
+      "date": "2008；核实日期 2026-10-04",
+      "url": "https://ecommons.cornell.edu/bitstreams/cb93580e-86e3-4249-9180-e3d5cdfe5147/download",
+      "status": "检索返回论文摘要与正文片段；直接打开下载链接失败，未完整阅读全文",
+      "citation": "Flynn, F. J., & Lake, V. K. B. (2008). If You Need Help, Just Ask: Underestimating Compliance With Direct Requests for Help. Journal of Personality and Social Psychology, 95(1), 128–143. DOI：10.1037/0022-3514.95.1.128。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P02",
+      "title": "追问与好感：需要连同评论和勘误一起读",
+      "date": "2017；核实日期 2026-10-04",
+      "url": "https://dash.harvard.edu/entities/publication/73120379-2eb6-6bd4-e053-0100007fdf3b",
+      "status": "读到资料页摘要与题录，全文链接未成功打开；已核对 P13 勘误摘要",
+      "citation": "Huang, K., Yeomans, M., Brooks, A. W., Minson, J., & Gino, F. (2017). It Doesn’t Hurt to Ask: Question-Asking Increases Liking. Journal of Personality and Social Psychology, 113(3), 430–452. DOI：10.1037/pspi0000097。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P03",
+      "title": "评论：提问数量不等于倾听质量",
+      "date": "2019；核实日期 2026-10-04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6857721/",
+      "status": "检索取得原文方法、结果和讨论片段，直接打开受到验证限制，未完整阅读全文",
+      "citation": "Kluger, A. N., & Malloy, T. E. (2019). Question Asking as a Dyadic Behavior. Journal of Personality and Social Psychology, 117(6), 1127–1138. DOI：10.1037/pspi0000156。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P04",
+      "title": "回应：追问研究的分析争论",
+      "date": "2019；核实日期 2026-10-04",
+      "url": "https://www.mikeyeomans.info/papers/cumulative.pdf",
+      "status": "读到作者稿摘要、回应论点与部分分析附录，未复算代码",
+      "citation": "Yeomans, M., Brooks, A. W., Huang, K., Minson, J., & Gino, F. (2019). It Helps to Ask: The Cumulative Benefits of Asking Follow-Up Questions. Journal of Personality and Social Psychology, 117(6), 1139–1144. DOI：10.1037/pspi0000220。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P05",
+      "title": "文字消息的语气可能被误读",
+      "date": "2005；核实日期 2026-10-04",
+      "url": "https://web-docs.stern.nyu.edu/pa/kruger_email_ego.pdf",
+      "status": "读到摘要、部分实验方法与结果、作者指出的限制，未逐页精读",
+      "citation": "Kruger, J., Epley, N., Parker, J., & Ng, Z.-W. (2005). Egocentrism Over E-Mail: Can We Communicate as Well as We Think? Journal of Personality and Social Psychology, 89(6), 925–936. DOI：10.1037/0022-3514.89.6.925。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P06",
+      "title": "感谢的正面效果可能被低估",
+      "date": "2018；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29949445/",
+      "status": "读到摘要，未核对全文方法和全部效应量",
+      "citation": "Kumar, A., & Epley, N. (2018). Undervaluing Gratitude: Expressers Misunderstand the Consequences of Showing Appreciation. Psychological Science, 29(9), 1423–1435. DOI：10.1177/0956797618772506。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P07",
+      "title": "理解别人：询问比自信猜测更值得尝试",
+      "date": "2018；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29620401/",
+      "status": "读到摘要，未完整阅读全文",
+      "citation": "Eyal, T., Steffel, M., & Epley, N. (2018). Perspective Mistaking: Accurately Understanding the Mind of Another Requires Getting Perspective, Not Taking Perspective. Journal of Personality and Social Psychology, 114(4), 547–571. DOI：10.1037/pspa0000115。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P09",
+      "title": "弱关系与求职信息：不是认识越多人越好",
+      "date": "2022；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36107999/",
+      "status": "检索取得原始论文摘要及题录，直接打开页面返回不完整，未阅读全文",
+      "citation": "Rajkumar, K., Saint-Jacques, G., Bojinov, I., Brynjolfsson, E., & Aral, S. (2022). A Causal Test of the Strength of Weak Ties. Science, 377(6612), 1304–1310. DOI：10.1126/science.abl4476。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P10",
+      "title": "聊完后的自我评价可能偏低",
+      "date": "2018；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30183512/",
+      "status": "检索取得原始摘要与题录，直接打开页面返回不完整，未阅读全文",
+      "citation": "Boothby, E. J., Cooney, G., Sandstrom, G. M., & Clark, M. S. (2018). The Liking Gap in Conversations: Do People Like Us More Than We Think? Psychological Science, 29(11), 1742–1756. DOI：10.1177/0956797618783714。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P11",
+      "title": "道歉：补救内容值得重视",
+      "date": "2016；核实日期 2026-10-04",
+      "url": "https://ncmr.lps.library.cmu.edu/article/id/264/",
+      "status": "读到摘要、部分方法、结果及讨论限制",
+      "citation": "Lewicki, R. J., Polin, B., & Lount, R. B., Jr. (2016). An Exploration of the Structure of Effective Apologies. Negotiation and Conflict Management Research, 9(2), 177–196。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P12",
+      "title": "倾听改善交流体验，不保证说服",
+      "date": "2025；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39977324/",
+      "status": "读到摘要；检索取得部分讨论，未完整阅读全文",
+      "citation": "Santoro, E., Broockman, D. E., Kalla, J. L., & Porat, R. (2025). Listen for a Change? A Longitudinal Field Experiment on Listening’s Potential to Enhance Persuasion. Proceedings of the National Academy of Sciences, 122(8), e2421982122. DOI：10.1073/pnas.2421982122。",
+      "material_type": "研究论文或评论回应"
+    },
+    {
+      "id": "P13",
+      "title": "2025 年提问研究勘误",
+      "date": "2025；核实日期 2026-10-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40111841/",
+      "status": "检索取得勘误摘要；直接打开页面返回不完整，未逐项检查链接中的审计材料",
+      "citation": "Correction to “It Doesn’t Hurt to Ask: Question-Asking Increases Liking” by Huang et al. (2017). (2025). Journal of Personality and Social Psychology, 128(3), 669. DOI：10.1037/pspi0000491。",
+      "material_type": "勘误"
+    },
+    {
+      "id": "A01",
+      "title": "亲友借款：把期待先说清楚",
+      "date": "发布日期未标明；核实日期 2026-10-04",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/adult-financial-education/tips-for-managing-family-lending-and-borrowing/",
+      "status": "读到页面正文与讨论问题",
+      "citation": "CFPB. Tips for Managing Family Lending and Borrowing. 发布日期未标明。",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A02",
+      "title": "分歧沟通：提前准备需要了解的问题",
+      "date": "2026-01-14（页面日期；改编自 2013 年材料）；核实日期 2026-10-04",
+      "url": "https://www.pon.harvard.edu/daily/dealing-with-difficult-people-daily/negotiation-tips-listening-skills-for-dealing-with-difficult-people/",
+      "status": "读到正文三项练习",
+      "citation": "PON Staff (2026-01-14). Negotiation Tips: Listening Skills for Dealing With Difficult People. 改编自 2013 年材料。",
+      "material_type": "机构实践文章"
+    },
+    {
+      "id": "A03",
+      "title": "小组作业：事前制定团队约定",
+      "date": "2025-10-20；核实日期 2026-10-04",
+      "url": "https://www.ucl.ac.uk/teaching-learning/case-studies/2025/oct/team-agreements-embedding-inclusivity-group-work",
+      "status": "读到页面正文，未查看嵌入视频或下载模板",
+      "citation": "Lotti, L. / UCL (2025-10-20). Team Agreements: Embedding Inclusivity in Group Work.",
+      "material_type": "机构实践文章"
+    }
+  ]
+}

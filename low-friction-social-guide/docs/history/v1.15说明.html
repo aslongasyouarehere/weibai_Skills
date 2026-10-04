@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="source-sha256" content="14dfdb4fc9a681bd45e9b80961956fc5a63d150c61f7600b45e2848c9b6aa78e"><meta name="description" content="低内耗社交指南 · v1.15 论文与机构文章整合记录"><title>v1.15 论文与机构文章整合记录 · 低内耗社交指南</title><style>
+:root{--paper:#f5f5f8;--surface:#fff;--ink:#17161d;--purple:#654bff;--purple-dark:#4b34df;--purple-soft:#f0edff;--muted:#6f6d7a;--line:#e3e1ea;--teal:#237b70}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.9;overflow-wrap:anywhere}
+header,main,footer{width:min(100%,880px);margin:auto;padding:0 28px}header{padding-top:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--line);font-size:14px}.brand{font-weight:760;letter-spacing:.04em}.top nav{display:flex;gap:6px 16px;justify-content:flex-end;flex-wrap:wrap}a{color:var(--purple-dark);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid #c7bfff;outline-offset:4px}.top a{text-decoration:none}.top nav a{color:var(--muted)}.top nav a:hover{color:var(--purple)}
+main{padding-top:44px;padding-bottom:42px}h1{font-size:42px;line-height:1.28;letter-spacing:0;margin:0 0 22px}h2{font-size:24px;line-height:1.5;margin:44px 0 14px;padding-top:10px;border-top:1px solid var(--line);scroll-margin-top:20px}h3{font-size:19px;line-height:1.6;margin:30px 0 10px;scroll-margin-top:20px}h4,h5,h6{font-size:17px;margin:22px 0 8px;scroll-margin-top:20px}p{margin:0 0 18px}ul,ol{margin:0 0 22px;padding-left:1.5em}li{padding-left:.15em;margin:6px 0}li p{margin:8px 0}strong{font-weight:720}img{display:block;width:auto;max-width:100%;height:auto;margin:22px auto;border-radius:6px}blockquote{margin:20px 0;padding:8px 0 8px 16px;border-left:3px solid var(--purple);color:#504d5c;background:linear-gradient(90deg,var(--purple-soft),transparent)}blockquote p:last-child{margin-bottom:0}hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+.table-wrap{max-width:100%;overflow-x:auto;margin:18px 0 26px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:0 12px}table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.75}th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line);min-width:115px}th{font-weight:700;color:var(--purple-dark);background:var(--purple-soft)}td:first-child,th:first-child{padding-left:8px}code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88em;background:#eeedf2;padding:2px 5px;border-radius:3px}pre{overflow-x:auto;padding:16px;background:#eeedf2;border-radius:6px;line-height:1.6}pre code{background:none;padding:0;white-space:pre;overflow-wrap:normal}.toc{margin:26px 0 34px;padding:18px 20px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:14px}.toc summary{color:var(--purple-dark);font-weight:720;cursor:pointer}.toc ul{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;padding:0;margin:12px 0 0}.toc li{margin:0;padding:0}.toc a{text-decoration:none}
+footer{border-top:1px solid var(--line);padding-top:20px;padding-bottom:30px;font-size:13px;color:var(--muted)}footer p{margin-bottom:8px}.footer-links{display:flex;flex-wrap:wrap;gap:8px 18px}
+@media(max-width:600px){header,main,footer{padding-left:18px;padding-right:18px}.top{display:block}.top nav{justify-content:flex-start;margin-top:12px;font-size:14px;gap:6px 14px}main{padding-top:30px}h1{font-size:32px}h2{font-size:22px}h3{font-size:18px}th,td{padding:9px 10px}table{font-size:14px}.toc ul{display:block}.toc li{margin:8px 0}}
+@media print{body{background:white;color:#111;font-size:11pt}header,.toc,.footer-links{display:none}main,footer{width:auto;max-width:none;padding:0}h1{font-size:24pt}h2{font-size:17pt;break-after:avoid}h3{font-size:14pt;break-after:avoid}a{color:inherit}.table-wrap{overflow:visible}pre{white-space:pre-wrap}img{max-height:80vh}footer{margin-top:25px}}
+</style></head><body><header><div class="top"><a class="brand" href="../../index.html">低内耗社交指南</a><nav aria-label="站点导航"><a href="../../index.html">阅读与检索</a><a href="../../阅读全文.html">连续阅读</a><a href="../practice.html">练习</a><a href="../../about.html">项目说明</a></nav></div></header><main><h1 id="v115-论文与机构文章整合记录">v1.15 论文与机构文章整合记录</h1><details class="toc"><summary>本页目录</summary><ul><li><a href="#为什么整合而不新增">为什么整合而不新增</a></li><li><a href="#修改位置">修改位置</a></li><li><a href="#依据如何处理">依据如何处理</a></li><li><a href="#生成与校验范围">生成与校验范围</a></li><li><a href="#同日交互检查与修复">同日交互检查与修复</a></li></ul></details>
+<p>日期：2026-10-04。保留 10 章 64 条，本次深化 12 条现有场景。</p>
+<h2 id="为什么整合而不新增">为什么整合而不新增</h2>
+<p>求助、感谢、接话、倾听、借款、犯错和内推已经有对应条目。新增同义场景会让读者在相近标题间反复选择，因此把具体动作、情境分支和研究边界放回原条目，不以新增数量衡量丰富程度。</p>
+<h2 id="修改位置">修改位置</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">条目</th><th scope="col">实际补充</th><th scope="col">来源</th></tr></thead><tbody>
+<tr>
+<td>1.2 小组分工</td>
+<td>回复渠道、延误通知、缺项调整与成员确认</td>
+<td>A03</td>
+</tr>
+<tr>
+<td>2.1 明确求助</td>
+<td>判断拒绝空间、犹豫时确认一次、接受拒绝</td>
+<td>P01</td>
+</tr>
+<tr>
+<td>2.3 感谢反馈</td>
+<td>无需完美措辞、区分初步感谢与结果反馈</td>
+<td>P06</td>
+</tr>
+<tr>
+<td>3.4 犯错补救</td>
+<td>核实责任、确定补救和更新时间、追踪落实</td>
+<td>P11</td>
+</tr>
+<tr>
+<td>3.5 汇报</td>
+<td>文字要求与语气分开，新增确认修改重点的表达</td>
+<td>P05</td>
+</tr>
+<tr>
+<td>4.1 借钱</td>
+<td>借款与赠与、承担能力、期待变化的讨论清单</td>
+<td>A01</td>
+</tr>
+<tr>
+<td>4.2 迟还</td>
+<td>分期或延期需要重新同意，说明自己的用款限制</td>
+<td>A01</td>
+</tr>
+<tr>
+<td>6.1 建立联系</td>
+<td>自己觉得尴尬不等于对方讨厌，仍尊重明确拒绝</td>
+<td>P10</td>
+</tr>
+<tr>
+<td>6.4 倾听</td>
+<td>询问未知需要、复述后纠正，区分理解与接受建议</td>
+<td>P07、P12、A02</td>
+</tr>
+<tr>
+<td>7.5 接话</td>
+<td>承接细节、追问后听回答，不以问题数量衡量倾听</td>
+<td>P02、P03、P04、P13</td>
+</tr>
+<tr>
+<td>8.1 提意见</td>
+<td>准备未知问题，理解后仍可保留分歧与明确取舍</td>
+<td>A02、P12</td>
+</tr>
+<tr>
+<td>10.1 内推</td>
+<td>久未联系先问信息渠道，不把弱联系当能力背书</td>
+<td>P09</td>
+</tr>
+</tbody></table></div>
+<h2 id="依据如何处理">依据如何处理</h2>
+<p>具体动作和话术继续标为经验建议。论文作为有限范围的研究背景，机构文章作为实践借鉴；来源索引增列 P 与 A 编号，给出原始链接、题录、取得状态和核实日期。来源详情及研究对象、结果、局限见 <a href="../research-notes.html">资料笔记</a>。</p>
+<p>P02 连同 2019 年评论 P03、原作者回应 P04 和 2025 年勘误 P13 记录，不把它们算成四份独立实验证据。本次未复算数据或完成所有论文的全文、更正、重复研究检查，只取得摘要的材料在正文依据中说明；不采用效应量、成功率或“人性规律”的断言。</p>
+<p>P08 的团队心理安全仍留在资料库，未据摘要把组织层面的关联推广成个人话术有效的因果结论。借款只借鉴 CFPB 的沟通维度，不移植美国财税及法律规则。</p>
+<h2 id="生成与校验范围">生成与校验范围</h2>
+<p>同步检索页、连续阅读、Markdown、Skill 快照与 PDF。保持原有条号、封面数量、示例免责声明、无下划线 PDF、粗体副标题、目录与书签。校验来源编号、来源外链、PDF 来源书签及网页锚点，防止 P/A 编号只显示文字却无法跳转。</p>
+<h2 id="同日交互检查与修复">同日交互检查与修复</h2>
+<ul>
+<li>相关条目原先覆盖当前历史记录，跳转后无法通过浏览器返回恢复此前的查询和章节筛选。改为新增跳转历史记录，返回与前进时恢复对应结果并展开目标条目。</li>
+<li>相关条目原先拦截 Command / Ctrl 等修饰键点击，导致想开新标签页时反而在当前页跳转并清空筛选。现在保留浏览器原生修饰键与中键行为。</li>
+<li>增加上述场景的回归测试；复核原有搜索意图、筛选、刷新、深链接、清除筛选及离线 URL 测试。另检查全部 15 个已跟踪 HTML 页面的本地文件、锚点与重复 ID，未发现缺失或重复。</li>
+</ul>
+<p>检查范围不包含全部第三方来源的长期可用性，也不能保证所有浏览器与设备都没有问题。</p></main><footer><p>根据自己的关系与条件选择做法。示例可以调整，经验建议未验证效果。</p><p>本指南参考 GitHub 用户 kkk-bot 的《人情世故指南》项目，并结合公开资料重新编写。项目结构另参考 HowToLiveBetter 的问题目录、统一条目、公开纠错与配套 Skill 思路。</p><p class="footer-links"><a href="../../index.html">阅读与检索</a><a href="../../阅读全文.html">连续阅读</a><a href="../practice.html">练习</a><a href="../../about.html">项目说明</a><a href="../核实记录/v1.15说明.md">查看 Markdown 源文档</a></p></footer></body></html>

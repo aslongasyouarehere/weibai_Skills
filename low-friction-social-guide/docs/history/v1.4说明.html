@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="source-sha256" content="5bfa23e3364ed35102e3988e01e7da893a7dd217238f423518323aa943b3c174"><meta name="description" content="低内耗社交指南 · v1.4：Morris 公开观点的情境化整合"><title>v1.4：Morris 公开观点的情境化整合 · 低内耗社交指南</title><style>
+:root{--paper:#f5f5f8;--surface:#fff;--ink:#17161d;--purple:#654bff;--purple-dark:#4b34df;--purple-soft:#f0edff;--muted:#6f6d7a;--line:#e3e1ea;--teal:#237b70}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.9;overflow-wrap:anywhere}
+header,main,footer{width:min(100%,880px);margin:auto;padding:0 28px}header{padding-top:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--line);font-size:14px}.brand{font-weight:760;letter-spacing:.04em}.top nav{display:flex;gap:6px 16px;justify-content:flex-end;flex-wrap:wrap}a{color:var(--purple-dark);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid #c7bfff;outline-offset:4px}.top a{text-decoration:none}.top nav a{color:var(--muted)}.top nav a:hover{color:var(--purple)}
+main{padding-top:44px;padding-bottom:42px}h1{font-size:42px;line-height:1.28;letter-spacing:0;margin:0 0 22px}h2{font-size:24px;line-height:1.5;margin:44px 0 14px;padding-top:10px;border-top:1px solid var(--line);scroll-margin-top:20px}h3{font-size:19px;line-height:1.6;margin:30px 0 10px;scroll-margin-top:20px}h4,h5,h6{font-size:17px;margin:22px 0 8px;scroll-margin-top:20px}p{margin:0 0 18px}ul,ol{margin:0 0 22px;padding-left:1.5em}li{padding-left:.15em;margin:6px 0}li p{margin:8px 0}strong{font-weight:720}img{display:block;width:auto;max-width:100%;height:auto;margin:22px auto;border-radius:6px}blockquote{margin:20px 0;padding:8px 0 8px 16px;border-left:3px solid var(--purple);color:#504d5c;background:linear-gradient(90deg,var(--purple-soft),transparent)}blockquote p:last-child{margin-bottom:0}hr{border:0;border-top:1px solid var(--line);margin:32px 0}
+.table-wrap{max-width:100%;overflow-x:auto;margin:18px 0 26px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:0 12px}table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.75}th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line);min-width:115px}th{font-weight:700;color:var(--purple-dark);background:var(--purple-soft)}td:first-child,th:first-child{padding-left:8px}code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88em;background:#eeedf2;padding:2px 5px;border-radius:3px}pre{overflow-x:auto;padding:16px;background:#eeedf2;border-radius:6px;line-height:1.6}pre code{background:none;padding:0;white-space:pre;overflow-wrap:normal}.toc{margin:26px 0 34px;padding:18px 20px;background:var(--surface);border:1px solid var(--line);border-radius:8px;font-size:14px}.toc summary{color:var(--purple-dark);font-weight:720;cursor:pointer}.toc ul{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;padding:0;margin:12px 0 0}.toc li{margin:0;padding:0}.toc a{text-decoration:none}
+footer{border-top:1px solid var(--line);padding-top:20px;padding-bottom:30px;font-size:13px;color:var(--muted)}footer p{margin-bottom:8px}.footer-links{display:flex;flex-wrap:wrap;gap:8px 18px}
+@media(max-width:600px){header,main,footer{padding-left:18px;padding-right:18px}.top{display:block}.top nav{justify-content:flex-start;margin-top:12px;font-size:14px;gap:6px 14px}main{padding-top:30px}h1{font-size:32px}h2{font-size:22px}h3{font-size:18px}th,td{padding:9px 10px}table{font-size:14px}.toc ul{display:block}.toc li{margin:8px 0}}
+@media print{body{background:white;color:#111;font-size:11pt}header,.toc,.footer-links{display:none}main,footer{width:auto;max-width:none;padding:0}h1{font-size:24pt}h2{font-size:17pt;break-after:avoid}h3{font-size:14pt;break-after:avoid}a{color:inherit}.table-wrap{overflow:visible}pre{white-space:pre-wrap}img{max-height:80vh}footer{margin-top:25px}}
+</style></head><body><header><div class="top"><a class="brand" href="../../index.html">低内耗社交指南</a><nav aria-label="站点导航"><a href="../../index.html">阅读与检索</a><a href="../../阅读全文.html">连续阅读</a><a href="../practice.html">练习</a><a href="../../about.html">项目说明</a></nav></div></header><main><h1 id="v14morris-公开观点的情境化整合">v1.4：Morris 公开观点的情境化整合</h1><details class="toc"><summary>本页目录</summary><ul><li><a href="#改了什么">改了什么</a></li><li><a href="#依据与转译边界">依据与转译边界</a></li><li><a href="#生成与验证">生成与验证</a></li></ul></details>
+<p>日期：2026-10-02。10 章 63 条；不新增正文条号，保持原引用。补强 9 条已有正文，附录增加 3 个原创练习。</p>
+<h2 id="改了什么">改了什么</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col">条目</th><th scope="col">原有缺口</th><th scope="col">补充内容</th><th scope="col">已核对来源</th></tr></thead><tbody>
+<tr>
+<td>1.4</td>
+<td>许可的持续范围不明确</td>
+<td>一次许可不默认长期共用，自己也遵守相同规则</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>5.5</td>
+<td>动机与行为影响需分开</td>
+<td>不必先判定恶意才能要求停止；区分失言与反复针对</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>6.4</td>
+<td>倾听顺序与支持范围可更具体</td>
+<td>先听完、问需求；理解不等于承担持续伤害，不远程诊断</td>
+<td>S03、S10</td>
+</tr>
+<tr>
+<td>7.2</td>
+<td>见面与公开资料的许可不同</td>
+<td>联系方式、照片、私人经历分别确认可分享范围</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>9.1</td>
+<td>感谢与决策容易混合</td>
+<td>分开讨论感谢、资源条件、最终决定与共同后果</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>9.4</td>
+<td>直接请求与试探未明确区分</td>
+<td>不用冷落、假急事或制造嫉妒测试关心</td>
+<td>S08</td>
+</tr>
+<tr>
+<td>10.3</td>
+<td>选择范围容易变成非此即彼</td>
+<td>问清投入、退出安排；允许协商、暂缓或其他机会</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>4.6</td>
+<td>追加消费的判断缺少动作</td>
+<td>按未来交付判断，不因已付钱而追加；不凭收费模式定性</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>8.4</td>
+<td>人物好恶与内容判断未明确分开</td>
+<td>区分事实、解释、建议；检查利益与成本，不直接推定虚假</td>
+<td>S01、S07</td>
+</tr>
+<tr>
+<td>附录 7–9</td>
+<td>需要可练习的场景</td>
+<td>明确请求、追加投入、失败后调整一个动作</td>
+<td>S03、S08、S04、S05、S06、S09</td>
+</tr>
+</tbody></table></div>
+<h2 id="依据与转译边界">依据与转译边界</h2>
+<p>来源编号对应 <a href="../Morris账号整理/阅读笔记.html">学习笔记与原帖索引</a>。S01–S12 在上一轮已用浏览器核对原帖正文与日期；本次使用其中 S01、S02、S03、S04、S05、S06、S07、S08、S09、S10。原帖只证明作者表达过这些看法，不证明具体动作有效。</p>
+<p>正文与附录均为本项目原创转译，不复制原文，不冒充作者话术；保留成本、例外、调整信号与经验依据。没有采用 S13–S16 的未核对摘要，没有引入认知分层、贫困归因、陌生人动机推断、心理诊断、成功率或市场预测。</p>
+<h2 id="生成与验证">生成与验证</h2>
+<p>从 book/ 和附录生成检索页、连续阅读页、完整指南与 Skill 快照；来源笔记及本记录也同步到 Skill references。检查字段、编号、引用、快照一致性和检索脚本语法，并浏览器核对更新条目、练习及搜索按钮。</p>
+<p>本次不增加证据等级；尚未完成用户访谈或效果测试，后续应根据具体场景反馈修正。</p></main><footer><p>根据自己的关系与条件选择做法。示例可以调整，经验建议未验证效果。</p><p>本指南参考 GitHub 用户 kkk-bot 的《人情世故指南》项目，并结合公开资料重新编写。项目结构另参考 HowToLiveBetter 的问题目录、统一条目、公开纠错与配套 Skill 思路。</p><p class="footer-links"><a href="../../index.html">阅读与检索</a><a href="../../阅读全文.html">连续阅读</a><a href="../practice.html">练习</a><a href="../../about.html">项目说明</a><a href="../核实记录/v1.4说明.md">查看 Markdown 源文档</a></p></footer></body></html>
