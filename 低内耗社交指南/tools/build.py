@@ -176,7 +176,7 @@ def main():
     download_page = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>下载 HTML · {html.escape(meta['name'])}</title><style>:root{{--purple:#654bff;--ink:#17161d;--muted:#6f6d7a;--paper:#f5f5f8;--line:#e3e1ea}}*{{box-sizing:border-box}}body{{max-width:700px;margin:64px auto;padding:0 24px;background:var(--paper);color:var(--ink);font:16px/1.9 -apple-system,"PingFang SC",sans-serif}}a{{color:#4b34df}}.download{{display:inline-block;padding:11px 22px;background:var(--purple);color:white;border-radius:999px;text-decoration:none;font-weight:700}}.reference{{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}}</style></head><body><p style="color:#654bff;font-size:12px;font-weight:700;letter-spacing:.12em">LOW-FRICTION SOCIAL GUIDE</p><h1>下载 HTML 检索页</h1><p>下载的是项目文件夹里的 index.html。保存后，用浏览器打开即可离线搜索和查看全部条目。</p><p><a id="download" class="download" href="../index.html" download="index.html">下载 index.html</a></p><p>正在开始下载。如果浏览器没有自动下载，请点击上面的按钮。</p><p>其他阅读页和资料需要配套文件。需要完整离线使用，请保留整个项目文件夹。</p><p><a href="../index.html">返回检索页</a></p><p class="reference">{html.escape(meta['reference_note'])}</p><script>document.getElementById('download').click();</script></body></html>'''
     (ROOT / 'downloads').mkdir(exist_ok=True)
     (ROOT / 'downloads/html.html').write_text(download_page, encoding='utf-8')
-    refs = ROOT / 'skills/low-friction-social-guide/references'
+    refs = ROOT / 'skills/低内耗社交指南/references'
     target = refs / 'book'
     target.mkdir(parents=True, exist_ok=True)
     for old in target.glob('*.md'):

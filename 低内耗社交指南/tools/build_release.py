@@ -40,7 +40,7 @@ class Links(HTMLParser):
 def validate():
     from pypdf import PdfReader
     entries, chapters = read_entries()
-    snapshots = ROOT / 'skills/low-friction-social-guide/references'
+    snapshots = ROOT / 'skills/低内耗社交指南/references'
     meta = json.loads((ROOT / 'project.json').read_text(encoding='utf-8'))
     build_revision = meta.get('build_revision', meta['version'])
     if build_revision != '1.17':
@@ -74,7 +74,7 @@ def validate():
             expected = expected.replace('../平台素材收集-2026-10-04.md', '平台素材收集-2026-10-04.md')
         if expected != (snapshots / snapshot).read_text(encoding='utf-8'):
             raise ValueError(f'Skill 文档快照过期：{snapshot}')
-    for file in [ROOT / 'README.md', *(ROOT / 'skills/low-friction-social-guide').rglob('*.md')]:
+    for file in [ROOT / 'README.md', *(ROOT / 'skills/低内耗社交指南').rglob('*.md')]:
         for link in re.findall(r'\]\(([^\s)]+)\)', file.read_text(encoding='utf-8')):
             url = urlsplit(link)
             if url.scheme or url.netloc or not url.path:
